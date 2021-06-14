@@ -1,6 +1,6 @@
 module.exports = {
   title: '你想要来点兔子吗',
-  tagline: 'The tagline of my site',
+  tagline: 'The tagline of nogess',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
