@@ -1,12 +1,12 @@
 module.exports = {
-  title: '你想要来点兔子吗',
-  tagline: '',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
-  favicon: 'img/favicon.ico',
-  organizationName: '', // Usually your GitHub org/user name.
-  projectName: '', // Usually your repo name.
-  themeConfig: {
+  title: '你想要来点兔子吗', // 网站标题
+  tagline: '多年以后，奥雷连诺上校站在行刑队面前，准会想起父亲带他去参观冰块的那个遥远的下午。 ',
+  url: 'https://nogess.github.io', // 网站的域名
+  baseUrl: '/',  // 站点的根路径
+  favicon: 'img/favicon_bart.ico', // 网站的 favicon 文件的 URL 链接
+  organizationName: 'nogess', // Usually your GitHub org/user name. 拥有此源码仓库的 GitHub 用户或组织。
+  projectName: 'blog', // Usually your repo name.
+  themeConfig: { // 主题配置
     navbar: {
       title: 'nogess',
       logo: {
