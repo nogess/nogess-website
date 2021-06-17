@@ -12,7 +12,9 @@ tags: [ call, apply, bind, 面试 ]
 #### call、apply和bind的区别
 
   > `call`跟`apply`的用法几乎一样，唯一的不同就是传递的参数不同，`call`只能一个参数一个参数的传入。
+  >
   > `apply`则只支持传入一个数组，哪怕是一个参数也要是数组形式。最终调用函数时候这个数组会拆成一个个参数分别传入。
+  >
   > 至于`bind`方法，他是直接改变这个函数的`this`指向并且返回一个新的函数，之后再次调用这个函数的时候`this`都是指向`bind`绑定的第一个参数。`bind`传餐方式跟`call`方法一致。
 
 
@@ -62,10 +64,10 @@ tags: [ call, apply, bind, 面试 ]
 
 - 总结
 
-  > 1. 当我们使用一个函数需要改变`this`指向的时候才会用到`call` `apply`  `bind`
-  > 2. 如果你要传递的参数不多，则可以使用`fn.call(thisObj, arg1, arg2 ...)`
-  > 3. 如果你要传递的参数很多，则可以用数组将参数整理好调用`fn.apply(thisObj, [arg1, arg2 ...])`
-  > 4. 如果你想生成一个新的函数长期绑定某个函数给某个对象使用，则可以使用`const newFn = fn.bind(thisObj); newFn(arg1, arg2...)`
+   1. 当我们使用一个函数需要改变`this`指向的时候才会用到`call` `apply`  `bind`
+   2. 如果你要传递的参数不多，则可以使用`fn.call(thisObj, arg1, arg2 ...)`
+   3. 如果你要传递的参数很多，则可以用数组将参数整理好调用`fn.apply(thisObj, [arg1, arg2 ...])`
+   4. 如果你想生成一个新的函数长期绑定某个函数给某个对象使用，则可以使用`const newFn = fn.bind(thisObj); newFn(arg1, arg2...)`
   
 - 使用小技巧
 
