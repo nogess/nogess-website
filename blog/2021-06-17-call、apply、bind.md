@@ -1,8 +1,6 @@
 ---
 id: call-apply-bind
 title: call、apply和bind
-
-- 
 author: 
 author_title: 
 author_url: 
@@ -14,9 +12,7 @@ tags: [ call, apply, bind, 面试 ]
 #### call、apply和bind的区别
 
   > `call`跟`apply`的用法几乎一样，唯一的不同就是传递的参数不同，`call`只能一个参数一个参数的传入。
-  >
   > `apply`则只支持传入一个数组，哪怕是一个参数也要是数组形式。最终调用函数时候这个数组会拆成一个个参数分别传入。
-  >
   > 至于`bind`方法，他是直接改变这个函数的`this`指向并且返回一个新的函数，之后再次调用这个函数的时候`this`都是指向`bind`绑定的第一个参数。`bind`传餐方式跟`call`方法一致。
 
 
