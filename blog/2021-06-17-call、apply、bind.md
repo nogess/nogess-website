@@ -1,6 +1,6 @@
 ---
 id: call-apply-bind
-title: call、apply和bind
+title: call、apply和bind知识整理
 author: 
 author_title: 
 author_url: 
